@@ -77,8 +77,6 @@ const estados = [
         cielo: textura_uno_cielo
     },
 
-   
-
     // Estado 3
     {
         esfera: textura_uno_esfera,
