@@ -24,16 +24,16 @@ const textureLoader = new THREE.TextureLoader();
 // ======================
 
 // SUELO
-const textura_uno_suelo = textureLoader.load('/textures/7.jpg');
-const textura_dos_suelo = textureLoader.load('/textures/6.jpg');
+const textura_uno_suelo = textureLoader.load('${import.meta.env.BASE_URL}/textures/7.jpg');
+const textura_dos_suelo = textureLoader.load('${import.meta.env.BASE_URL}/textures/6.jpg');
 
 // CIELO
-const textura_uno_cielo = textureLoader.load('/textures/7.jpg');
+const textura_uno_cielo = textureLoader.load('${import.meta.env.BASE_URL}/textures/7.jpg');
 const textura_dos_cielo = textureLoader.load('/textures/6.jpg');
 
 // ESFERA
-const textura_uno_esfera = textureLoader.load('/textures/7.jpg');
-const textura_dos_esfera = textureLoader.load('/textures/6.jpg');
+const textura_uno_esfera = textureLoader.load('${import.meta.env.BASE_URL}/textures/7.jpg');
+const textura_dos_esfera = textureLoader.load('${import.meta.env.BASE_URL}/textures/6.jpg');
 
 
 // ======================
